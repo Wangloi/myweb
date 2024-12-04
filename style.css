@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
 body{
     width: 90%;
     background: linear-gradient(70.08deg, rgba(2, 15, 132, 0) 55.98%, rgba(2, 15, 132, 0.133333) 64.13%, rgba(2, 10, 82, 0.5) 99.77%), #1F1D21;
@@ -7,11 +10,6 @@ body{
     background-attachment: fixed;
     
 }
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
 
     .w , .u{
         color: rgba(70, 85, 222, 0.62);
@@ -80,6 +78,12 @@ body{
             width: 40px;
             border-radius: 40px;
             margin-left: 10px;
+        }
+
+        .home{
+            grid-area: 1 / 8 / 2 / 9;
+            font-family: "Athiti", sans-serif;
+            margin-left: 30px;
         }
 
         .about{
@@ -195,7 +199,7 @@ body{
     }
 
     .name-a, .Birthday, .age, .gender, .address, .school, .course, .year{
-        padding: 15px;
+        padding: 10px;
         padding-left: 30px;
     }
 
