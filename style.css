@@ -1,0 +1,206 @@
+body{
+    width: 90%;
+    background: linear-gradient(70.08deg, rgba(2, 15, 132, 0) 55.98%, rgba(2, 15, 132, 0.133333) 64.13%, rgba(2, 10, 82, 0.5) 99.77%), #1F1D21;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+    .w , .u{
+        color: rgba(70, 85, 222, 0.62);
+    }
+
+    .header {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        width: 110%;
+        height: 100%;
+        }
+
+        .div1 {
+            grid-area: 1 / 1 / 2 / 13;
+        }
+
+        .div2 {
+            grid-area: 1 / 2 / 2 / 5;
+            color: #FFFFFF;
+            font-size: 20px;
+            font-family: "Athiti", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            align-items: center;
+            padding: 20px;
+        }
+        .div3 {
+            grid-area: 1 / 11 / 2 / 12;
+            
+        } 
+        
+    
+        .div4 {
+            grid-area: 1 / 12 / 2 / 13;
+            color: #FFFFFF;
+            font-size: 20px;
+            font-family: "Athiti", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            align-items: center;
+            padding: 20px;
+            display: flex;
+            margin-right: 20px;
+            
+        }
+        a{
+            font-family: "Athiti", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        
+        .nav{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            
+        }
+
+        
+        .ava{
+            width: 40px;
+            border-radius: 40px;
+            margin-left: 10px;
+        }
+
+        .about{
+            grid-area: 1 / 8 / 2 / 9;
+            font-family: "Athiti", sans-serif;
+            margin-left: 30px;
+        }
+
+        .photos {
+            grid-area: 1 / 9 / 2 / 10;
+            font-family: "Athiti", sans-serif;
+            margin-left: 30px;
+        }
+
+        .more{
+            grid-area: 1 / 10 / 2 / 11;
+            font-family: "Athiti", sans-serif;
+            margin-left: 30px;
+        }
+            .info { 
+                grid-area: 4 / 2 / 7 / 5;
+                mix-blend-mode: luminosity;
+                padding: 20px;
+                width: 500px;
+                background-color: rgb(22, 22, 63);
+                border-radius: 30px;
+                
+            }
+            .pic { grid-area: 7 / 2 / 9 / 5; }
+            .fb { grid-area: 9 / 2 / 10 / 5; display: flex; }
+            .ig { grid-area: 10 / 2 / 11 / 5; display: flex; }
+            .gmail { grid-area: 11 / 2 / 12 / 5; display: flex; }
+            .phonenumber { grid-area: 12 / 2 / 13 / 5; display: flex; }
+            .wawa { grid-area: 3 / 5 / 13 / 9; }
+            .wawa1 { grid-area: 7 / 10 / 13 / 13; }
+
+        .name{
+            color: #FFFFFF;
+            font-family: "Athiti", sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .mess{
+            color: #FFFFFF;
+            font-size: 20px;
+            font-family: "Athiti", sans-serif;
+        }
+
+        .wawa img{
+            width: 900px;
+            height: 762px;
+            filter: drop-shadow(10px 10px 20px rgb(102, 101, 101));
+        }
+
+    .fb , .ig, .gmail ,.phonenumber{
+        margin-top: 20px;
+    }
+
+    .text{
+        margin-top: 9px;
+        font-family: "Athiti", sans-serif;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .num{
+        margin-top: 9px;
+        font-family: "Athiti", sans-serif;
+        font-weight: 500;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .fb img, .ig img, .gmail img,.phonenumber img{
+        width: 40px;
+        height: 40px;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    .pic img{
+        width: 500px;
+        border-radius: 30px;
+        opacity: 50% ;
+    }
+
+    .about-a{
+        grid-area: 4 / 2 / 7 / 5;
+        font-size: 20px;
+        font-family: "Athiti", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        align-items: center;
+        color: #FFFFFF;
+        border: solid 1px #FFFFFF;
+        width: 100%;
+        height: 500px;
+        padding: 20px;
+        border-radius: 30px;
+        mix-blend-mode: luminosity;
+        background-color: rgb(22, 22, 63);
+
+    }
+
+    .personal{
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: "Athiti", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        align-items: center;
+    }
+
+    .name-a, .Birthday, .age, .gender, .address, .school, .course, .year{
+        padding: 15px;
+        padding-left: 30px;
+    }
+
+
+
+
+
+    
