@@ -276,3 +276,13 @@ body{
         border-radius: 30px;
         border: solid 1px #FFFFFF;
     }
+
+    
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstrow img{
+        width: 100px;
+    }
